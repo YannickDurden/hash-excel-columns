@@ -1,0 +1,109 @@
+QWidget {
+    background-color: #232323;
+}
+
+QPushButton {
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QPushButton#backButton {
+    background-color: tomato;
+    border: 1px solid tomato;
+    font-size: 20px;
+}
+
+QPushButton#openFileButton {
+    background-color: #09f;
+    border: 1px solid #09f;
+    font-size: 30px;
+}
+
+QListWidget {
+    background-color: #232323;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QLabel {
+    background-color: #232323;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QLabel#description {
+    font-size: 20px;
+}
+
+QLabel#howto {
+    font-size: 15px;
+}
+
+QProgressDialog {
+    background-color: #232323;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QProgressDialog>QLabel {
+    background-color: #232323;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QProgressDialog>QProgressBar {
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressDialog>QPushButton {
+    background-color: tomato;
+    color: #ffffff;
+    border: 1px solid tomato;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QGroupBox {
+    background-color: #232323;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    background-color: #232323;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+QLabel#howToLabelOne,
+QLabel#howToLabelTwo,
+QLabel#howToLabelThree {
+    font-size: 15px;
+}
+
+QLabel#descriptionLabel {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+QLabel#appTitleLabel {
+    font-size: 20px;
+}
